@@ -1,20 +1,18 @@
-body{
-    background: #F7C988;
-    margin-left: 200px;
-    margin-right: 200px;
+.navbar{
+    background-color: #F7C988;
 }
 
-h1{
-    color: red;
-    font-family: fantasy;
-
+.margin{
+    padding-top:20px;
+    padding-bottom:20px;
 }
 
-.img_padrao{
-    width:300px;
-    margin-bottom: 30px;
+#sobre-mim{
+    background-color: #A69A80;
 }
-
-p{
-    font-size: 18px;
+#experiencia{
+    background-color: #575144;
+}
+#conquista{
+    background-color: cornsilk;
 }
