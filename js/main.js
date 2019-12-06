@@ -1,14 +1,10 @@
-const fodase = 'fodase';
-console.log(fodase);
+var obj = {
+name: 'Celso';
 
-class oloko{
-    constructor(olokinho){
-        this.olokinho = olokinho;
-    }
-    getOlokinho(){
-        return this.olokinho;
-    }
 }
+//Destructutin assigment
 
-ol = new oloko("OLOKINHO MEU");
-console.log(ol.getOlokinho());
+var [apple, banana, orange] = ['Apple','Banana', 'Orange'];
+console.log (banana);
+
+var {name} =  obj;
